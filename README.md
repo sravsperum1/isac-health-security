@@ -16,8 +16,6 @@ The system ingests real UCI HAR dataset (accelerometer + gyroscope readings from
 
 ## 🏗️ Architecture
 
-## 🏗️ Architecture
-
 **INPUT** → **AGENT 1** → **AGENT 2** → **AGENT 3** → **AGENT 4** → **OUTPUT**
 
 ---
