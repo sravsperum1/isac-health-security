@@ -82,25 +82,7 @@ Each agent's output becomes the next agent's input.
 | **ISACRiskAssessor** | INTEGRATION domain | Cross-domain vulnerabilities, attack propagation |
 | **SecurityReportWriter** | OUTPUT domain | Executive summary, recommendations, JSON export |
 
-## 🔧 Custom Tools
-
-### Tool 1: `detect_signal_anomaly(snr_db, rssi_dbm, protocol)`
-- **Purpose:** Detect jamming, interference, and signal degradation
-- **Input:** SNR (dB), RSSI (dBm), Protocol
-- **Output:** Anomaly flag, risk score, recommendation
-
-### Tool 2: `calculate_threat_score(threat_type, encryption, attack_success)`
-- **Purpose:** Calculate overall security threat score
-- **Input:** Threat type, encryption method, attack success
-- **Output:** Threat score (0-100), risk level, action required
-
-All agents inherit from a shared base `Agent` class that handles OpenAI function calling, tool dispatch, error handling, and `max_iterations` safety guard.
-
----
-
 ## 🔧 Custom Tools (Function Calling)
-
-## 🔧 Custom Tools
 
 ### Tool 1: `detect_signal_anomaly(snr_db, rssi_dbm, protocol)`
 - **Purpose:** Detect jamming, interference, and signal degradation
