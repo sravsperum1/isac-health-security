@@ -4,6 +4,8 @@ A multi-agent AI system that analyses real wearable sensor data (10,299 rows) to
 
 **GitHub Repository:** https://github.com/sravsperum1/isac-health-security
 
+**Deployement:** https://youtu.be/Sks1ib0m258?si=mBcXohkZdEUgxRyF
+
 ---
 
 ## 📌 Project Overview
